@@ -29,7 +29,7 @@ jobs:
           java-version: "22.0.1.x"
           cache: 'gradle'
       # 10
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@v3
         with:
           # 11
           flutter-version: "3.22.2"
